@@ -1,0 +1,66 @@
+*phpunit.txt*  A lightweight PHPUnit runner for Vim
+
+==============================================================================
+CONTENTS                                                    *phpunit-contents*
+
+    1. Intro ................................... |phpunit-intro|
+    2. Usage ................................... |phpunit-usage|
+    3. Configuration ........................... |phpunit-config|
+    4. Changelog ............................... |phpunit-changelog|
+    5. Credits ................................. |phpunit-credits|
+    6. License ................................. |phpunit-license|
+
+==============================================================================
+1. Intro                                                       *phpunit-intro*
+
+phpunit.vim is a lightweight PHPUnit runner for Vim.
+
+https://github.com/sebastianbergmann/phpunit
+
+==============================================================================
+2. Usage                                                       *phpunit-usage*
+
+:PHPUnitRunCurrentFile                                *:PHPUnitRunCurrentFile*
+    Runs all tests from the file located in the current buffer.
+
+:PHPUnitRunCurrentTest                                *:PHPUnitRunCurrentTest*
+    Runs test located under the cursor.
+
+:PHPUnitRunPreviousTest                              *:PHPUnitRunPreviousTest*
+    Runs the previously run test again.
+
+==============================================================================
+3. Configuration                                              *phpunit-config*
+
+g:phpunit_command                                            *phpunit_command*
+    The base command to run when any of the above functions are invoked.
+
+    Default: "phpunit {test}"
+
+==============================================================================
+4. Changelog                                               *phpunit-changelog*
+
+v0.0.1
+    * Super alpha release.
+
+==============================================================================
+5. Credits                                                   *phpunit-credits*
+
+This plugin was initially inspired by the vim-rspec plugin written by the
+folks at thoughtbot.
+
+https://github.com/thoughtbot/vim-rspec
+http://thoughtbot.com/
+
+All other Vim related inspirations belong to:
+
+Tim Pope <https://github.com/tpope>
+Steve Losh <https://github.com/sjl>
+Martin Grenfell <https://github.com/scrooloose>
+
+==============================================================================
+6. License                                                   *phpunit-license*
+
+This work is free. You can redistribute it and/or modify it under the terms of
+the Do What The Fuck You Want To Public License, Version 2, as published by
+Sam Hocevar. See http://www.wtfpl.net/ for more details.
