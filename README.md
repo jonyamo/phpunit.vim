@@ -12,7 +12,7 @@ If you do not have a preferred method, here are some suggestions:
 
 [NeoBundle](https://github.com/Shougo/neobundle.vim)
 
-    NeoBundle 'jonyamo/phpunit.vim'
+    NeoBundleLazy 'jonyamo/phpunit.vim', {'autoload':{'filetypes':['php']}}
 
 [Vundle](https://github.com/gmarik/vundle)
 
